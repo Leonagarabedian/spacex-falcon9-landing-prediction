@@ -1,28 +1,36 @@
-# SpaceX Falcon 9 First Stage Landing Prediction with Machine Learning
+# Stage 07 — Machine Learning Modeling
 
-## Project Description
+## Overview
+In this stage, the Falcon 9 dataset is used to build **supervised machine learning models** that predict the likelihood of a successful first-stage landing.  
+By applying classification algorithms and evaluating their performance, we aim to determine which model best captures the relationship between mission features (payload, orbit, site, booster version) and launch outcomes.
 
-In this project, you will build a machine learning pipeline to predict whether the first stage of a Falcon 9 rocket will successfully land. SpaceX advertises significant cost savings by reusing the first stage of their rockets, priced at $62 million per launch compared to $165 million or more by other providers. Predicting first stage landing outcomes can provide valuable insights for competitors and stakeholders aiming to understand launch costs and risks.
+## Contents
+- **`Spacex_ML.ipynb`** — Jupyter notebook containing feature engineering, model training, and evaluation.  
+- **`dataset_part_2.csv`** **`dataset_part\_3.csv`** — Processed dataset prepared for machine learning (derived from earlier stages).  
 
-Building on prior exploratory data analysis, this lab guides you through the complete machine learning workflow — from data preparation and feature engineering to training multiple classifiers and evaluating their performance.
+## Key Steps
+1. **Data Preprocessing**  
+   - Encode categorical variables (e.g., Launch Site, Booster Version).  
+   - Normalize numerical features (e.g., Payload Mass).  
 
-## Objectives
+2. **Feature Engineering**  
+   - Select relevant predictors from the dataset.  
+   - Split data into training and test sets.  
 
-- Perform exploratory data analysis and define training labels.
-- Create a binary classification column indicating successful first stage landing.
-- Standardize and preprocess the dataset.
-- Split data into training and testing sets.
-- Train and tune three different classification models:
-  - Support Vector Machine (SVM)
-  - Classification Trees
-  - Logistic Regression
-- Find the best hyperparameters for each model.
-- Compare model performance on test data and identify the best approach.
+3. **Model Training**  
+   - Train multiple classifiers:  
+     - Logistic Regression  
+     - Support Vector Machine (SVM)  
+     - Decision Tree  
+     - K-Nearest Neighbors (KNN)  
 
-## What You Will Learn
+4. **Model Evaluation**  
+   - Compare models using accuracy, precision, recall, and F1 score.  
+   - Apply hyperparameter tuning (e.g., GridSearchCV) for optimization.  
 
-- Preparing data for machine learning (feature creation, scaling).
-- Splitting datasets for training and evaluation.
-- Building classification models using SVM, decision trees, and logistic regression.
-- Hyperparameter tuning and model selection.
-- Evaluating model accuracy and making predictions.
+## Output
+- Performance comparison across different classifiers.  
+- Best-performing model identified for predicting Falcon 9 landing success.  
+- Insights into feature importance and their impact on outcomes.  
+
+
