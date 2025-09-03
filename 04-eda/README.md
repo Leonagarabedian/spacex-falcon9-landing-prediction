@@ -19,3 +19,10 @@ This stage prepares the unified SpaceX Falcon 9 launch dataset for modeling by *
 4. Generate visual insights to guide **feature engineering** and later **modeling**.
 
 ---
+## Output
+- **`dataset_part_2.csv`** Cleaned data for visualization portion
+- **`dataset_part\_3.csv`** featured engineered categorical data
+
+---
+## Next
+➡️ **Stage 05 — Geospatial Analysis with folium maps for launch/landing sites**
