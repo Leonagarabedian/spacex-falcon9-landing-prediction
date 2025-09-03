@@ -13,7 +13,7 @@ It demonstrates skills in **data collection, wrangling, SQL, geospatial analysis
   Collects Falcon 9 data from the SpaceX API.
 
 - **02-web-scraping/**
-  - [jupyter-labs-webscraping.ipynb](02-web-scraping/jupyter-labs-webscraping.ipynb)  
+  - [jupyter-labs-webscraping.ipynb](02-web-scraping/Spacex-wiki-webscraping.ipynb)  
   Scrapes historical launch data from Wikipedia.
 
 - **03-sql/**
