@@ -40,10 +40,7 @@ It demonstrates skills in **data collection, wrangling, SQL, geospatial analysis
   Builds ML models (Logistic Regression, SVM, Decision Tree, KNN), tunes hyperparameters, and evaluates performance.
 
 - **08-docs/**
-  - Project documentation, diagrams, and slides (to be added).
-
-- **notebooks/**
-  - A presentation-ready executive demo notebook (to be created).
+  - Project documentation, diagrams, and slides.
 
 ---
 
