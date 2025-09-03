@@ -1,30 +1,32 @@
-# Interactive SpaceX Launch Dashboard with Plotly Dash
+# Stage 06 — Interactive Dashboard (Dash & Plotly)
 
-## Project Description
+## Overview
+In this stage, the Falcon 9 dataset is transformed into an **interactive web application** built with Dash and Plotly Express.  
+The dashboard enables dynamic exploration of SpaceX launch outcomes by combining **dropdown filters**, **payload sliders**, and **interactive charts**.
 
-This project is an interactive dashboard application built using **Plotly Dash** that enables users to perform real-time visual analytics on SpaceX launch data. The dashboard provides intuitive input controls: a dropdown menu for selecting launch sites and a range slider for choosing payload mass—to dynamically update visualizations and uncover insights about launch success.
+## Contents
+- **`spacex_launch_dash.py`** — Dash application script for interactive visualizations.  
+- **`spacex_launch_dash.csv`** — Cleaned dataset containing payload, launch site, and outcome information.  
 
-Through this application, users can explore SpaceX’s launch performance across different sites and payload ranges, gaining a deeper understanding of the factors influencing mission outcomes.
+## Key Features
+1. **Launch Site Dropdown**  
+   - Filter results by a specific launch site or view aggregated results across all sites.  
 
-### Key Features
+2. **Success Pie Chart**  
+   - For "All Sites": shows total successful launches by site.  
+   - For a selected site: compares success vs failure rates.  
 
-- **Launch Site Dropdown:** Filter and analyze launches from specific SpaceX launch sites.
-- **Success Pie Chart:** Visualize the distribution of successful and failed launches for the selected site.
-- **Payload Range Slider:** Select payload mass ranges to filter launches dynamically.
-- **Success-Payload Scatter Chart:** Explore correlations between payload mass and launch success, including booster version information.
+3. **Payload Range Slider**  
+   - Adjust the payload mass range (kg) to focus the analysis.  
 
-### Insights You Can Discover
+4. **Scatter Plot**  
+   - Plots payload mass against launch outcome (success/failure).  
+   - Uses color coding to distinguish **Booster Version Categories**.  
 
-- Which launch site has the largest number of successful launches?
-- Which site achieves the highest launch success rate?
-- What payload mass ranges correspond to the highest and lowest success rates?
-- Which Falcon 9 booster versions (v1.0, v1.1, FT, B4, B5, etc.) have the best launch success?
-
-## What You Will Learn
-
-- Building interactive dashboards with Plotly Dash.
-- Implementing dynamic callbacks to connect user inputs and visualizations.
-- Creating pie charts and scatter plots that respond to real-time user selections.
-- Using Python and Dash to explore complex datasets in an accessible format.
+## Output
+The app provides an **interactive dashboard** where users can:  
+- Identify how payload range influences launch outcomes.  
+- Compare site-specific performance (success vs failure).  
+- Explore correlations between payload, booster version, and mission success.  
 
 
