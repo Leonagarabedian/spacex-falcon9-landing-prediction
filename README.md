@@ -6,7 +6,7 @@ It demonstrates skills in **data collection, wrangling, SQL, geospatial analysis
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 - **01-data-collection/**
   - [jupyter-labs-spacex-data-collection-api.ipynb](01-data-collection/Spacex-data-collection-api.ipynb)  
@@ -44,7 +44,7 @@ It demonstrates skills in **data collection, wrangling, SQL, geospatial analysis
 
 ---
 
-## ✨ Features
+## Features
 
 - API & Web scraping → unified dataset  
 - SQL for filtering and analysis  
@@ -56,7 +56,7 @@ It demonstrates skills in **data collection, wrangling, SQL, geospatial analysis
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Languages**: Python (pandas, numpy, scikit-learn) • SQL  
 - **Visualization**: Plotly, Dash, Folium, Matplotlib  
