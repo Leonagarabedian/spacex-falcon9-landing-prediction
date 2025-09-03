@@ -9,7 +9,7 @@ It demonstrates skills in **data collection, wrangling, SQL, geospatial analysis
 ## 📂 Project Structure
 
 - **01-data-collection/**
-  - [jupyter-labs-spacex-data-collection-api.ipynb](01-data-collection/jupyter-labs-spacex-data-collection-api.ipynb)  
+  - [jupyter-labs-spacex-data-collection-api.ipynb](01-data-collection/Spacex-data-collection-api.ipynb)  
   Collects Falcon 9 data from the SpaceX API.
 
 - **02-web-scraping/**
