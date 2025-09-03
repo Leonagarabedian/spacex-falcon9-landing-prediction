@@ -21,14 +21,14 @@ It demonstrates skills in **data collection, wrangling, SQL, geospatial analysis
   SQL queries and analysis for launch records.
 
 - **04-eda/**
-  - [data_wrangling.ipynb](04-eda/data_wrangling.ipynb)  
+  - [data_wrangling.ipynb](04-eda/Space-X-DataWrangling.ipynb)  
   Cleans and merges data for modeling.  
   - **falcon9-eda-visuals/**
-    - [edadataviz.ipynb](04-eda/falcon9-eda-visuals/edadataviz.ipynb)  
+    - [edadataviz.ipynb](04-eda/falcon9-eda-visuals/SpaceX-EDA-Visuals.ipynb)  
     Exploratory Data Analysis (visualizations).
 
 - **05-geospatial/**
-  - [folium_launch_sites.ipynb](05-geospatial/folium_launch_sites.ipynb)  
+  - [folium_launch_sites.ipynb](05-geospatial/SpaceX_Launch_Location.ipynb)  
   Geospatial analysis and launch site maps with Folium.
 
 - **06-dash-app/**
@@ -36,7 +36,7 @@ It demonstrates skills in **data collection, wrangling, SQL, geospatial analysis
   Interactive Plotly Dash web app for exploring launch data.
 
 - **07-ml-modeling/**
-  - [model_training_part5.ipynb](07-ml-modeling/model_training_part5.ipynb)  
+  - [model_training_part5.ipynb](07-ml-modeling/SpaceX_ML.ipynb)  
   Builds ML models (Logistic Regression, SVM, Decision Tree, KNN), tunes hyperparameters, and evaluates performance.
 
 - **08-docs/**
