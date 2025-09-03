@@ -30,4 +30,4 @@ The app provides an **interactive dashboard** where users can:
 - Explore correlations between payload, booster version, and mission success.  
 
 
-## Next ➡️ **Stage08  Ml Modeling
+## Next ➡️ Stage08 Ml Modeling
