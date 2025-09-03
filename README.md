@@ -17,7 +17,7 @@ It demonstrates skills in **data collection, wrangling, SQL, geospatial analysis
   Scrapes historical launch data from Wikipedia.
 
 - **03-sql/**
-  - [jupyter-labs-eda-sql-coursera_sqllite.ipynb](03-sql/jupyter-labs-eda-sql-coursera_sqllite.ipynb)  
+  - [jupyter-labs-eda-sql-coursera_sqllite.ipynb](03-sql/Spacex-sql-analysis.ipynb)  
   SQL queries and analysis for launch records.
 
 - **04-eda/**
