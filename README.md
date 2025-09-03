@@ -65,7 +65,7 @@ It demonstrates skills in **data collection, wrangling, SQL, geospatial analysis
 
 ---
 
-## ⚡ Quickstart
+##  Quickstart
 
 ```bash
 # create virtual environment
