@@ -3,7 +3,7 @@
 This stage collects Falcon 9 launch data from the **SpaceX API** and prepares it for analysis.
 
 ## Contents
-- **`spacex-capstone-stage01-portfolio-final.ipynb`** — Notebook with API calls, feature extraction, and cleaning.  
+- **`Spacex-data-collection-api.ipynb`** — Notebook with API calls, feature extraction, and cleaning.  
 - **`dataset_part_1.csv`** — Cleaned dataset exported from this stage.  
 
 ## Steps
