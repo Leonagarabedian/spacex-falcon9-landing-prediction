@@ -4,14 +4,14 @@ This stage prepares the unified SpaceX Falcon 9 launch dataset for modeling by *
 
 ---
 
-## 📂 Contents
+## Contents
 
 - **`Space-X-DataWrangling.ipynb`** — end-to-end cleaning & standardization notebook (missing values, type fixes, label unification, feature prep).  
 - **`falcon9-eda-visuals/SpaceX-EDA-Visuals.ipynb`** — visual EDA (distributions, trends, site/orbit success rates, FlightNumber × Payload analyses).
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 1. Make the dataset **analysis-ready**: consistent types, tidy columns, explicit null handling.  
 2. Create a **clean target** for landing success (binary/label).  
@@ -25,4 +25,4 @@ This stage prepares the unified SpaceX Falcon 9 launch dataset for modeling by *
 
 ---
 ## Next
-➡️ **Stage 05 — Geospatial Analysis with folium maps for launch/landing sites**
+**Stage 05 — Geospatial Analysis with folium maps for launch/landing sites**
