@@ -25,4 +25,4 @@ While previous stages (Matplotlib/Seaborn) focused on statistical relationships 
 The notebook produces interactive Folium maps that reveal **spatial patterns** in launch site usage and mission outcomes. These maps complement earlier statistical analysis by adding a **geographical perspective** to Falcon 9 launch success.
 
 ## Next
-➡️ **Stage 06 — Dash App**
+**Stage 06 — Dash App**
