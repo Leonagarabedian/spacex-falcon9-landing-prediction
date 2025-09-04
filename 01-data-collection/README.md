@@ -13,4 +13,4 @@ This stage collects Falcon 9 launch data from the **SpaceX API** and prepares it
 4. Export the cleaned dataset for the next stage.  
 
 ## Next
-➡️ **Stage 02 — Web Scraping** (Wikipedia enrichment).
+**Stage 02 — Web Scraping** (Wikipedia enrichment).
