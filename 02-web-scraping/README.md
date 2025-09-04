@@ -17,4 +17,4 @@ The goal is to augment the API-derived data (from Stage 01) with additional cont
 5. **Convert to a DataFrame** and export as CSV.  
 
 ## Next
-➡️ **Stage 03 — SQL Analysis**
+**Stage 03 — SQL Analysis**
